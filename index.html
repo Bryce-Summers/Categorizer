@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Categorizer</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+
+        <h1>The Categorizer!</h1>
+
+        <p>
+        Welcome to Bryce Corp! Because we care about you, please correctly categorize yourself. <br>
+        We will then be able to fully understand you.
+        </p>
+        
+        <!-- Processes this form at this website's address. -->
+        <form action="./index.html">
+        Job:        <input type="text" name="job"        value=""><br>
+        Discipline: <input type="text" name="discipline" value=""><br>
+        Gender:     <input type="text" name="gender"     value=""><br>
+        Religion:   <input type="text" name="religion"   value=""><br>
+        Ideology:   <input type="text" name="ideology"   value=""><br>
+        First Name: <input type="text" name="firstname"  value=""><br>
+        Last Name:  <input type="text" name="lastname"   value=""><br>
+        <input type="submit" value="Submit">
+        </form>
+
+        <p id="output">
+        Your gender, your race wasn't in the database.
+        </p>
+
+        <!--<canvas id="theCanvas" width="500" height="500"></canvas>-->
+
+    	<!--<div id="container"></div>-->
+		        
+        <!--<script src="src/example_core.js"></script>-->
+        <script src="src/categorizer.js"></script>
+	
+	</body>
+</html>
